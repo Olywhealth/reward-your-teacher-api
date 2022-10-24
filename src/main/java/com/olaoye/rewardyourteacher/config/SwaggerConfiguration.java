@@ -16,15 +16,15 @@ public class
 SwaggerConfiguration {
     @Value("${api.info.title: Reward Your Teacher}")
     private String title;
-    @Value("${api.info.description: Backend API for the Reward Your Teacher app for Squad 11B Java Pod B}")
+    @Value("${api.info.description: Backend API for the Reward Your Teacher app}")
     private String description;
     @Value("${api.info.version: v1}")
     private String version;
-    @Value("${api.info.contact.name: POD B}")
+    @Value("${api.info.contact.name: Johnson}")
     private String contactName;
-    @Value("${api.info.contact.email: }")
+    @Value("${api.info.contact.email: johnsonoyekunle08@gmail.com}")
     private String contactEmail;
-    @Value("${api.info.contact.url:https://github.com/decadevs/Reward-Your-Teacher-API-11B-JAVA-POD-B}")
+    @Value("${api.info.contact.url: https://github.com/Olywhealth/reward-your-teacher-api}")
     private String contactUrl;
     @Value("${api.info.licence.name: Licence 2.0}")
     private String licenceName;
